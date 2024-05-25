@@ -45,9 +45,9 @@
 // });
 // ---------------------------------------
 // ЗАДАНИЕ: 4
-// import { NextDayMethod } from "../src/nextDAY-method";
+import { NextDayMethod } from "../src/nextDAY-method";
 
-// it("NextDayMethod", () => {
-//   const resultNextDate = new NextDayMethod(25);
-//   expect(resultNextDate.nextDay()).toBe(24);
-// });
+it("NextDayMethod", () => {
+  const resultNextDate = new NextDayMethod(25);
+  expect(resultNextDate.nextDay()).toBe(26);
+});
